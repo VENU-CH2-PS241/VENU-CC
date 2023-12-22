@@ -55,3 +55,16 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 ---
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+
+## Documentation
+### ERD
+![VENU ERD 0 3](https://github.com/VENU-CH2-PS241/VENU-CC/assets/146908715/d8ab5be2-b5f7-4c86-aa08-d0f44141b41a)
+### Flowchart
+#### `Login`
+![VENU Login](https://github.com/VENU-CH2-PS241/VENU-CC/assets/146908715/d06c0953-fd99-40bb-ba38-f2e441214a99)
+#### `VENU Flow`
+![VENU Flowchart](https://github.com/VENU-CH2-PS241/VENU-CC/assets/146908715/e1fb2c01-231b-402a-9e8b-a5330b958695)
+#### `Logout`
+![VENU Logout](https://github.com/VENU-CH2-PS241/VENU-CC/assets/146908715/5307c988-6c01-49ba-b47e-02069fef02a7)
+
+

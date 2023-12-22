@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news1s",
+  "info": {
+    "singularName": "news1",
+    "pluralName": "news1s",
+    "displayName": "News1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "id_news2": {
+      "type": "biginteger",
+      "unique": true
+    },
+    "news_headline1": {
+      "type": "string"
+    },
+    "news_headline2": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "resource": {
+      "type": "text"
+    },
+    "like": {
+      "type": "biginteger"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "news_1s"
+    },
+    "prediction": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::prediction.prediction",
+      "inversedBy": "news_1"
+    },
+    "recommendations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::recommendation.recommendation",
+      "mappedBy": "news_1"
+    },
+    "news_id_news2": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::recommendation.recommendation",
+      "mappedBy": "id_news2"
+    }
+  }
+}
